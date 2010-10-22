@@ -3,6 +3,7 @@
 
 To install !MagickTiler, simply unzip the distribution bundle to your hard disk.
 
+*Important:* !MagickTiler uses !GraphicsMagick to perform image manipulation (resizing, cropping, etc.) Therefore, you must also install !GraphicsMagick from http://www.graphicsmagick.org/ before using !MagickTiler!
 
 = CLI Usage =
 
