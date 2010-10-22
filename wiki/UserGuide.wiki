@@ -1,0 +1,24 @@
+#labels Featured,Phase-Deploy
+= Installation =
+
+To install !MagickTiler, simply unzip the distribution bundle to your hard disk.
+
+*Important:* !MagickTiler uses !GraphicsMagick to perform image manipulation (resizing, cropping, etc.) Therefore, you must also install !GraphicsMagick from http://www.graphicsmagick.org/ before using !MagickTiler!
+
+= CLI Usage =
+
+!MagickTiler can be used from the command line prompt using the command
+'java -jar magicktiler.jar', plus appropriate options. 
+
+*Example:* {{{java -jar magicktiler.jar -s tms -f jpeg -p images}}}
+
+The example command will create TMS tilesets (with JPEG tiles) for each file
+in the folder 'images'. A preview HTML file will be added to each tileset. 
+
+*Command options:*<br>
+  {{{-h}}} .... displays help text<br>
+  {{{-s}}} ....   selects the tiling scheme ('tms', 'zoomify' or 'ptif')<br>
+  {{{-f}}} ....   selects the tile image format ('jpeg' or 'png')<br>
+  {{{-b}}} ....   selects a background color (if applicable for the selected tile scheme)<br>
+  {{{-o}}} ....   output directory (for tilesets) or file (for PTIF)<br>
+  {{{-p}}} ....   generates an HTML preview file<br>
