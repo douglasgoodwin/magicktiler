@@ -1,0 +1,16 @@
+#labels Featured,Phase-Implementation
+= How to Build !MagickTiler from Source =
+
+!MagickTiler is built using Ant. The following build targets exist:
+
+  - build:dist ... creates the !MagickTiler distribution bundle<br>
+  - build:lib .... creates the embeddable library file without dependencies<br>
+  - test ......... runs JUnit tests<br>
+  - doc .......... generates !JavaDoc<br>
+
+The distribution bundle includes an executable .jar file (called {{{magicktiler.jar}}}) with all dependencies included. Use this file in case you want to use !MagickTiler as a command-line tool.
+
+The !MagickTiler embeddable library file (called {{{magicktiler-lib-<version>.jar}}}) is for use in your own Java applications. It does not include any external dependencies. To use !MagickTiler in your own applications, you need to add the embeddable library .jar and the following two dependencies to your project build path:
+ * {{{im4java-1.1.0.jar}}}
+ * {{{log4j-1.2.15.jar}}}
+Both can be found in the /lib folder of the !MagickTiler project.
