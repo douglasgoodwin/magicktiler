@@ -7,4 +7,5 @@
 
 ==Not-so-high Priority==
   * Add support for Google Map tile scheme
+  * Create developer documentation (+ images to explain various tiling schemes)
   * Check for !ImageMagick-compatibility
