@@ -7,4 +7,4 @@
 
 ==Not-so-high Priority==
   * Add support for Google Map tile scheme
-  * Check for ImageMagick-compatibility
+  * Check for !ImageMagick-compatibility
