@@ -1,6 +1,10 @@
 #labels Featured
-= !MagickTiler - List of Todos =
+=!MagickTiler - List of Todos=
 
+==High Priority==
   * Make JPEG compression configurable
   * Add a Swing GUI (using Scala for added coolness)
+
+==Not-so-high Priority==
   * Add support for Google Map tile scheme
+  * Check for ImageMagick-compatibility
