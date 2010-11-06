@@ -1,0 +1,5 @@
+= !MagickTiler - List of Todos =
+
+  * Make JPEG compression configurable
+  * Add a Swing GUI (using Scala for added coolness)
+  * Add support for Google Map tile scheme
