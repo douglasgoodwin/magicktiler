@@ -2,6 +2,7 @@
 =!MagickTiler - List of Todos=
 
 ==High Priority==
+  * Update Documentation since we now have a GUI!
   * Make JPEG compression configurable
   * Create developer documentation (+ images to explain various tiling schemes)
 
