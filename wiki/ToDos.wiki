@@ -3,9 +3,11 @@
 
 ==High Priority==
   * Make JPEG compression configurable
-  * Add a Swing GUI (using Scala for added coolness)
+  * Create developer documentation (+ images to explain various tiling schemes)
 
 ==Not-so-high Priority==
   * Add support for Google Map tile scheme
-  * Create developer documentation (+ images to explain various tiling schemes)
   * Check for !ImageMagick-compatibility
+  * GUI-Improvements:
+    * drag-and-drop
+    * show file/tileset information after selecting a file
