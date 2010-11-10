@@ -4,7 +4,6 @@
 ==High Priority==
   * Update Documentation since we now have a GUI!
   * Put the (non-standalone) .jar up for download
-  * Make JPEG compression configurable
   * Create developer documentation (+ images to explain various tiling schemes)
 
 ==Not-so-high Priority==
