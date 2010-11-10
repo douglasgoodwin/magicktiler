@@ -3,10 +3,12 @@
 
 ==High Priority==
   * Update Documentation since we now have a GUI!
+  * Put the (non-standalone) .jar up for download
   * Make JPEG compression configurable
   * Create developer documentation (+ images to explain various tiling schemes)
 
 ==Not-so-high Priority==
+  * Add support for Mr.SID image format by integrating with the [http://www.lizardtech.com/downloads/tools.php LizardTech command line converter]
   * Add support for Google Map tile scheme
   * Check for !ImageMagick-compatibility
   * GUI-Improvements:
