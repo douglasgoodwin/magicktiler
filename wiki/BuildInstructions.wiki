@@ -10,7 +10,11 @@
 
 The distribution bundle includes an executable .jar file (called {{{magicktiler.jar}}}) with all dependencies included. Use this file in case you want to use !MagickTiler as a command-line tool.
 
-The !MagickTiler embeddable library file (called {{{magicktiler-lib-<version>.jar}}}) is for use in your own Java applications. It does not include any external dependencies. To use !MagickTiler in your own applications, you need to add the embeddable library .jar and the following two dependencies to your project build path:
+The !MagickTiler embeddable library file (called {{{magicktiler-lib-<version>.jar}}}) is for use in your own Java applications. It does not include any external dependencies. To use !MagickTiler in your own applications, you need to add the embeddable library .jar and the following dependencies to your project build path:
  * {{{im4java-1.1.0.jar}}}
  * {{{log4j-1.2.15.jar}}}
-Both can be found in the /lib folder of the !MagickTiler project.
+ * {{{commons-cli-1.2.jar}}}
+ * {{{scala-library.jar}}}
+ * {{{scala-swing.jar}}}
+
+All these files can be found in the /lib folder of the !MagickTiler project. If you like to build the executable or the embeddable jar without the dependency to Scala, you will have to exclude the GUI from the build. You can achieve this by passing the -Dinclude.gui=false property to Ant.
