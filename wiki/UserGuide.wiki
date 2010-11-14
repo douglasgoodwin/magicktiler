@@ -17,8 +17,10 @@ in the folder 'images'. A preview HTML file will be added to each tileset.
 
 *Command options:*<br>
   {{{-h}}} .... displays help text<br>
+  {{{-i}}} ....   input file or directory<br>
+  {{{-o}}} ....   output directory (for tilesets) or file (for PTIF)<br>
   {{{-s}}} ....   selects the tiling scheme ('tms', 'zoomify' or 'ptif')<br>
   {{{-f}}} ....   selects the tile image format ('jpeg' or 'png')<br>
   {{{-b}}} ....   selects a background color (if applicable for the selected tile scheme)<br>
-  {{{-o}}} ....   output directory (for tilesets) or file (for PTIF)<br>
   {{{-p}}} ....   generates an HTML preview file<br>
+  {{{-g}}} ....   start the GUI<br>
