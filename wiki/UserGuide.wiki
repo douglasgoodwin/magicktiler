@@ -23,4 +23,4 @@ in the folder 'images'. A preview HTML file will be added to each tileset.
   {{{-f}}} ....   selects the tile image format ('jpeg' or 'png')<br>
   {{{-b}}} ....   selects a background color (if applicable for the selected tile scheme)<br>
   {{{-p}}} ....   generates an HTML preview file<br>
-  {{{-g}}} ....   start the GUI<br>
+  {{{-g}}} ....   starts the GUI<br>
