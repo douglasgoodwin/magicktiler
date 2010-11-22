@@ -6,7 +6,6 @@
   * Put the (non-standalone) .jar up for download
   * Create developer documentation (+ images to explain various tiling schemes)
   * Finish the KMLSuperOverlayTiler
-  * Finish the Google Map tiling scheme
 
 ==Not-so-high Priority==
   * Add support for Mr.SID image format by integrating with the [http://www.lizardtech.com/downloads/tools.php LizardTech command line converter]
