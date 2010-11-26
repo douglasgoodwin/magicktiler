@@ -5,7 +5,8 @@
   * Update Documentation since we now have a GUI!
   * Put the (non-standalone) .jar up for download
   * Create developer documentation (+ images to explain various tiling schemes)
-  * Finish the KMLSuperOverlayTiler
+  * Add support for [http://msdn.microsoft.com/en-us/library/cc645077%28v=VS.95%29.aspx MS Deep Zoom] ([http://gasi.ch/blog/inside-deep-zoom-2/ more info], [http://gasi.ch/blog/openzoom-description-format/ even more info])
+
 
 ==Not-so-high Priority==
   * Add support for Mr.SID image format by integrating with the [http://www.lizardtech.com/downloads/tools.php LizardTech command line converter]
@@ -13,3 +14,4 @@
   * GUI-Improvements:
     * drag-and-drop
     * show file/tileset information after selecting a file
+  * Finish the KMLSuperOverlayTiler
