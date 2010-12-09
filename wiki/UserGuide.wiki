@@ -5,7 +5,7 @@ To install !MagickTiler, simply unzip the distribution bundle to your hard disk.
 
 *Important:* !MagickTiler uses !GraphicsMagick to perform image manipulation (resizing, cropping, etc.) Therefore, you must also install !GraphicsMagick from http://www.graphicsmagick.org/ before using !MagickTiler!
 
-= CLI Usage =
+= CLI and GUI Usage =
 
 !MagickTiler can be used from the command line prompt using the command
 'java -jar magicktiler.jar', plus appropriate options. 
@@ -27,3 +27,8 @@ in the folder 'images'. A preview HTML file will be added to each tileset.
   {{{-g}}} ....   starts the GUI<br>
   {{{-l}}} ....   writes all relevant reporting information to a log file<br>
   {{{-v}}} ....   validate instead of convert: checks existing tilesets and generates a report about their correctness/integrity
+
+= Lib Usage =
+
+!MagickTiler can also be used as a Library. Just add the magicktiler.jar to your build path. Here is a simple code example to generate Google Maps Tiles. It works similar for other tiling schemes.
+
