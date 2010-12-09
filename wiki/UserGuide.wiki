@@ -30,5 +30,8 @@ in the folder 'images'. A preview HTML file will be added to each tileset.
 
 = Lib Usage =
 
-!MagickTiler can also be used as a Library. Just add the magicktiler.jar to your build path. Here is a simple code example to generate Google Maps Tiles. It works similar for other tiling schemes.
+!MagickTiler can also be used as a Java library. Just add the magicktiler.jar to your build path. Here is a simple code example for generating Google Map Tiles. It works similar for all other tiling schemes.
 
+{{{
+test test
+}}}
