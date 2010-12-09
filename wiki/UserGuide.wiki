@@ -21,6 +21,9 @@ in the folder 'images'. A preview HTML file will be added to each tileset.
   {{{-o}}} ....   output directory (for tilesets) or file (for PTIF)<br>
   {{{-s}}} ....   selects the tiling scheme ('tms', 'zoomify','gmap' or 'ptif')<br>
   {{{-f}}} ....   selects the tile image format ('jpeg' or 'png')<br>
+  {{{-q}}} ....   sets the JPEG compression quality from 0 (low) to 100 (high)<br>
   {{{-b}}} ....   selects a background color (if applicable for the selected tile scheme)<br>
   {{{-p}}} ....   generates an HTML preview file<br>
   {{{-g}}} ....   starts the GUI<br>
+  {{{-l}}} ....   writes all relevant reporting information to a log file<br>
+  {{{-v}}} ....   validate instead of convert: checks existing tilesets and generates a report about their correctness/integrity
