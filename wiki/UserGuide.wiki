@@ -33,5 +33,23 @@ in the folder 'images'. A preview HTML file will be added to each tileset.
 !MagickTiler can also be used as a Java library. Just add the magicktiler.jar to your build path and you're good to go. Here is a simple code example for generating Google Map tiles. It works in the same way for all other tiling schemes (just replace the {{{GoogleMapsTiler}}} with {{{TMSTiler}}}, {{{ZoomifyTiler}}}, {{{PTIFTiler}}}, etc.).
 
 {{{
-test test
+	public static void main(String... args) {
+		try {
+			File input = new File("/path/to/your/image.jpg");
+			File output = new File("/tileset/output/path");
+			
+			MagickTiler tiler = new GoogleMapsTiler();
+			// optional settings (these are the default values)
+			tiler.setTileFormat(ImageFormat.JPEG);
+			tiler.setJPEGCompressionQuality(75);
+			tiler.setBackgroundColor("#ffffffff");
+			tiler.setWorkingDirectory(new File("."));
+			tiler.setGeneratePreviewHTML(true);
+			
+			// create the tiles
+			TilesetInfo info = tiler.convert(input, output);
+		} catch (TilingException te) {
+			te.printStackTrace();
+		}
+	}
 }}}
