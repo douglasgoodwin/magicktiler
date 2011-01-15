@@ -18,4 +18,6 @@ The !MagickTiler embeddable library file (called {{{magicktiler-lib-<version>.ja
  * {{{scala-library.jar (optional)}}}
  * {{{scala-swing.jar (optional)}}}
 
-If you like to build the executable or the embeddable jar without the dependency to Scala, you will have to exclude the GUI from the build. You can achieve this by passing the {{{-Dinclude.gui=false}}} property to Ant. All these files can be found in the /lib folder of the !MagickTiler project.
+All these files can be found in the /lib folder of the !MagickTiler project.
+
+If you like to build the executable or the embeddable jar without the dependency to Scala, you will have to exclude the GUI from the build. You can achieve this by passing the {{{-Dinclude.gui=false}}} property to Ant. 
